@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: black;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    writing-mode: vertical-lr;
+    justify-content: space-between;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+.box {
+    float: left;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 125px;
+    line-height: 125px;
+    margin: 10px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: normal;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+video {
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    margin-top:680px;
+    margin-left: 30px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+a:hover {
+    opacity: 0.5;
+}
+
+@media (max-width:600px){
+    h2 {
+        color: black;
+        font-family: monospace;
+        font-size: 30px;
+        font-weight: normal;
+        position: absolute;
+        top: 0;
+        right: 0;
+        writing-mode: vertical-lr;
+        justify-content: space-between;
+    }
+    video {
+        margin-top: 120px;
+        margin-left: 30px;
+        width: 70%;
+    }
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        font-size: 30px;
+        font-weight: normal;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    p {
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        font-size: 12px;
+        font-weight: normal;
+        position: absolute;
+        margin-top:500px;
+        margin-left: 30px;
+    }
+}
